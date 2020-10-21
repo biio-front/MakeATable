@@ -1,0 +1,54 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+.clearfix::before, .clearfix::after{display: block; clear: both; content: '';}
+ul{list-style: none;}
+body{margin: 20px;}
+
+table{text-align: center;}
+
+
+/*예외*/
+#refer{
+    margin: 30px 0;
+}
+#refer>div{
+    margin-right: 20px;
+    float: left;
+}
+#refer>div>div{
+    width: 20px; height: 20px;
+    border-radius: 20px;
+    margin-left: 7px;
+}
+.faci{background: #08b8a0;}
+.spe{background: #fc5184;}
+.other{background: #2e2a2a;}
+
+#notice{padding: 0 10px; float: left;}
+#notice p{
+    color: gray; font-size: 10px;
+}
+/*버튼*/
+#name li div{
+    display: inline-block;
+    border: 1px solid white;
+    width: 10px; height: 10px;
+    border-radius: 10px;
+}
+.btn_faci{background:#08b8a0;}
+.btn_spe{background: #fc5184;}
+.btn_other{background: #2e2a2a;}
+
+
+/*명단*/
+#name{
+    display: grid;
+    grid-template-columns: repeat(6,140px);
+}
+#name input{width: 60px;}
+#name li{padding-bottom: 2px;}
+#name .mid{margin-left: 30px;}
+#name .mid h3{margin-left: -20px;}
+#name .mid li{
+    font-size: 85%;
+    line-height: 1.6em;
+}

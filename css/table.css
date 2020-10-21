@@ -1,0 +1,19 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+table{text-align: center;
+    border-spacing: 0;}
+table td{
+    border: 1px solid gray;
+}
+table tr:nth-child(2) td{width: 150px;}
+#here td{width: 150px; height: 35px;}
+#here td span{
+    width: 50px;
+}
+#here tr:nth-child(2n-1) td{
+    padding-top: 5px;
+    border-bottom: none;
+}
+#here tr:nth-child(2n) td{
+    padding-bottom: 5px;
+    border-top: none;
+}
