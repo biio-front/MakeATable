@@ -1,0 +1,369 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>식당</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/table.js"></script>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">아침</td>
+            <td colspan="2">점심</td>
+            <td colspan="2">저녁</td>
+        </tr>
+        <tr>
+            <td>준비<br>
+                (6:00)</td>
+            <td>설거지</td>
+            <td>준비<br>
+                (10:30)</td>
+            <td>설거지</td>
+            <td>준비</br>
+                (15:30)</td>
+            <td>설거지</td>
+        </tr>
+        <tr rowspan="2">
+            <td>화</td>
+            <td rowspan="7" colspan="6">
+<!--봉사 번호 들어가는 테이블-->
+                <table id="here">
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                        <td><span></span><span></span></td>
+                    </tr>
+                    <tr>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                        <td><span></span><span></span><span></span></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr rowspan="2">
+            <td>수</td>
+        </tr>
+        <tr rowspan="2">
+            <td>목</td>
+        </tr>
+        <tr rowspan="2">
+            <td>금</td>
+        </tr>
+        <tr rowspan="2">
+            <td>토</td>
+        </tr>
+        <tr rowspan="2">
+            <td>주</td>
+        </tr>
+        <tr rowspan="2">
+            <td>월</td>
+        </tr>
+    </table>
+
+    <button id="make_table_btn"><a href="mini.html">Make a table</a></button>
+        
+
+    <section>
+        <div id="refer" class="clearfix">
+            <div>
+                <div class="faci"></div>
+                <p>시설</p>
+            </div>
+            <div>
+                <div class="spe"></div>
+                <p>전봉</p>
+            </div>
+            <div>
+                <div class="other"></div>
+                <p>기타</p>
+            </div>
+            <div id="notice">
+                <p>여기서 버튼을 눌러 설정한 값은 일회성입니다.</p>
+                <p>저장된 값을 설정하려면 html에서 설정하십시오.</p>
+                <p>!!! html에서 변경시 각 형식에 맞추어 변경하십시오.</p>
+                <p>! 각 그룹별 최대 수를 100으로 가정. 100이상이라면 js에서 설정하십시오.</p>
+            </div>
+        </div>
+
+        <div id="name">
+            <!--시설이나 전봉 추가해주려면 li에 class값으로 추가
+                class 값 == 시설: faci, 전봉: spe, 기타: other -->
+            <div class="bro"><h3>2th_B</h3>
+                <ul class="2th_b">
+                    <li>   1 <input type="text" value="김이삭"></li>
+                    <li>   2 <input type="text" value="이이삭"></li>
+                    <li class="faci">   3 <input type="text" value="정이삭"></li>
+                    <li class="spe">   4 <input type="text" value="최이삭"></li>
+                    <li>   5 <input type="text" value="김이삭"></li>
+                    <li>   6 <input type="text" value="이이삭"></li>
+                    <li>   7 <input type="text" value="정이삭"></li>
+                    <li>   8 <input type="text" value="최이삭">
+                    <li>   9 <input type="text" value="김이삭"></li>
+                    <li>  10 <input type="text" value="이이삭"></li>
+                    <li class="faci"> 11 <input type="text" value="정이삭"></li>
+                    <li>  12 <input type="text" value="최이삭"></li>
+                    <li>  13 <input type="text" value="김이삭"></li>
+                    <li>  14 <input type="text" value="이이삭"></li>
+                    <li>  15 <input type="text" value="정이삭"></li>
+                    <li>  16 <input type="text" value="최이삭"></li>
+                    <li>  17 <input type="text" value="최이삭"></li>
+                    <li>  18 <input type="text" value="김이삭"></li>
+                    <li>  19 <input type="text" value="이이삭"></li>
+                    <li class="faci"> 20 <input type="text" value="정이삭"></li>
+                    <li>  21 <input type="text" value="최이삭"></li>
+                </ul>
+            </div>
+            <div class="bro"><h3>1th_B</h3>
+                <ul class="1th_b">
+                    <li>  31 <input type="text" value="김이삭"></li>
+                    <li class="spe">  32 <input type="text" value="이이삭"></li>
+                    <li>  33 <input type="text" value="정이삭"></li>
+                    <li>  34 <input type="text" value="최이삭"></li>
+                    <li>  35 <input type="text" value="김이삭"></li>
+                    <li>  36 <input type="text" value="이이삭"></li>
+                    <li class="faci"> 37 <input type="text" value="정이삭"></li>
+                    <li>  38 <input type="text" value="최이삭"></li>
+                    <li class="faci"> 39 <input type="text" value="정이삭"></li>
+                    <li>  40 <input type="text" value="최이삭"></li>
+                    <li>  41 <input type="text" value="김이삭"></li>
+                    <li>  42 <input type="text" value="이이삭"></li>
+                    <li>  43 <input type="text" value="정이삭"></li>
+                    <li>  44 <input type="text" value="최이삭"></li>
+                    <li>  45 <input type="text" value="김이삭"></li>
+                    <li>  46 <input type="text" value="이이삭"></li>
+                    <li class="faci"> 47 <input type="text" value="정이삭"></li>
+                    <li>  48 <input type="text" value="최이삭"></li>
+                    <li>  49 <input type="text" value="김이삭"></li>
+                    <li>  50 <input type="text" value="이이삭"></li>
+                    <li>  51 <input type="text" value="정이삭"></li>
+                    <li>  52 <input type="text" value="최이삭"></li>
+                    <li>  53 <input type="text" value="김이삭"></li>
+                    <li>  54 <input type="text" value="이이삭"></li>
+                </ul>
+            </div>
+            <div class="sis"><h3>2th_S</h3>
+                <ul class="2th_s">
+                    <li>  61 <input type="text" value="김이삭"></li>
+                    <li>  62 <input type="text" value="이이삭"></li>
+                    <li>  63 <input type="text" value="정이삭"></li>
+                    <li>  64 <input type="text" value="최이삭"></li>
+                    <li>  65 <input type="text" value="김이삭"></li>
+                    <li class="spe">  66 <input type="text" value="이이삭"></li>
+                    <li>  67 <input type="text" value="정이삭"></li>
+                    <li>  68 <input type="text" value="최이삭"></li>
+                    <li>  69 <input type="text" value="정이삭"></li>
+                    <li>  70 <input type="text" value="최이삭"></li>
+                    <li>  71 <input type="text" value="김이삭"></li>
+                    <li>  72 <input type="text" value="이이삭"></li>
+                    <li>  73 <input type="text" value="정이삭"></li>
+                    <li>  74 <input type="text" value="최이삭"></li>
+                    <li>  75 <input type="text" value="김이삭"></li>
+                    <li>  76 <input type="text" value="이이삭"></li>
+                    <li>  77 <input type="text" value="정이삭"></li>
+                    <li>  78 <input type="text" value="최이삭"></li>
+                    <li>  79 <input type="text" value="정이삭"></li>
+                    <li>  80 <input type="text" value="최이삭"></li>
+                    <li>  81 <input type="text" value="김이삭"></li>
+                    <li>  82 <input type="text" value="이이삭"></li>
+                    <li>  83 <input type="text" value="정이삭"></li>
+                    <li class="spe">  84 <input type="text" value="최이삭"></li>
+                    <li>  85 <input type="text" value="김이삭"></li>
+                    <li>  86 <input type="text" value="이이삭"></li>
+                    <li>  87 <input type="text" value="정이삭"></li>
+                    <li>  88 <input type="text" value="최이삭"></li>
+                    <li>  89 <input type="text" value="정이삭"></li>
+                    <li>  90 <input type="text" value="최이삭"></li>
+                    <li>  91 <input type="text" value="김이삭"></li>
+                    <li>  92 <input type="text" value="이이삭"></li>
+                    <li>  93 <input type="text" value="정이삭"></li>
+                    <li>  94 <input type="text" value="최이삭"></li>
+                    <li>  95 <input type="text" value="김이삭"></li>
+                </ul>
+            </div>
+            <div class="sis"><h3>1th_S</h3>
+                <ul class="1th_s">
+                    <li> 101 <input type="text" value="김이삭"></li>
+                    <li> 102 <input type="text" value="이이삭"></li>
+                    <li> 103 <input type="text" value="정이삭"></li>
+                    <li> 104 <input type="text" value="최이삭"></li>
+                    <li> 105 <input type="text" value="김이삭"></li>
+                    <li> 106 <input type="text" value="이이삭"></li>
+                    <li> 107 <input type="text" value="정이삭"></li>
+                    <li class="spe"> 108 <input type="text" value="최이삭"></li>
+                    <li> 109 <input type="text" value="정이삭"></li>
+                    <li> 110 <input type="text" value="최이삭"></li>
+                    <li> 111 <input type="text" value="김이삭"></li>
+                    <li> 112 <input type="text" value="이이삭"></li>
+                    <li class="spe"> 113 <input type="text" value="정이삭"></li>
+                    <li> 114 <input type="text" value="최이삭"></li>
+                    <li> 115 <input type="text" value="김이삭"></li>
+                    <li> 116 <input type="text" value="이이삭"></li>
+                    <li> 117 <input type="text" value="정이삭"></li>
+                    <li> 118 <input type="text" value="최이삭"></li>
+                    <li> 119 <input type="text" value="정이삭"></li>
+                    <li> 120 <input type="text" value="최이삭"></li>
+                    <li> 121 <input type="text" value="김이삭"></li>
+                    <li> 122 <input type="text" value="이이삭"></li>
+                    <li> 123 <input type="text" value="정이삭"></li>
+                    <li> 124 <input type="text" value="최이삭"></li>
+                    <li> 125 <input type="text" value="김이삭"></li>
+                    <li> 126 <input type="text" value="이이삭"></li>
+                    <li> 127 <input type="text" value="정이삭"></li>
+                    <li> 128 <input type="text" value="최이삭"></li>
+                    <li> 129 <input type="text" value="정이삭"></li>
+                    <li> 130 <input type="text" value="최이삭"></li>
+                    <li> 131 <input type="text" value="김이삭"></li>
+                    <li> 132 <input type="text" value="이이삭"></li>
+                    <li> 133 <input type="text" value="정이삭"></li>
+                    <li> 134 <input type="text" value="최이삭"></li>
+                    <li> 135 <input type="text" value="김이삭"></li>
+                    <li> 136 <input type="text" value="이이삭"></li>
+                    <li> 137 <input type="text" value="정이삭"></li>
+                </ul>
+            </div>
+            <div class="mid"><h3>Middle_B</h3>
+                <ol class="Middle_b">
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                </ol>
+            </div>
+            <div class="mid"><h3>Middle_S</h3>
+                <ol class="Middle_s">
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                    <li> <input type="text" value="김이삭"></li>
+                    <li> <input type="text" value="이이삭"></li>
+                    <li> <input type="text" value="정이삭"></li>
+                    <li> <input type="text" value="최이삭"></li>
+                </ol>
+            </div>
+            <script src="js/btn.js"></script>
+        </div>
+    </section>
+    
+</body>
+</html>
